@@ -4,7 +4,7 @@ body {
 .hero {
   text-align: center;
   background: hsl(0, 0%, 98%);
-  padding: 90px 20px;
+  padding: 120px 20px;
 }
 
 .hero p {
@@ -38,9 +38,7 @@ h2 {
   background: #2a2438;
   color: #ffffff;
 }
-.home-content{
-  padding-top:30px;
-}
+
 .home-content h2 {
   text-align: center;
   font-size: 45px;
