@@ -1,27 +1,36 @@
 body {
-  background: #fffdf6;
-  font-family: "Belanosima", sans-serif;
+  background: #fff6f6;
 }
 .hero {
   text-align: center;
   background: hsl(0, 0%, 98%);
+  padding: 100px 20px;
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 22px;
+  font-family: "Dosis", sans-serif;
 }
 
 h1 {
   font-size: 45px;
 }
 
-.btn-contact{
-    color:#fbfbfb;
-    background: black;
-    border-radius: 4px;
-    transition: 250ms ease-in-out;
+h2 {
+  line-height: 100px;
+  font-family: 'Pacifico', cursive;
 }
 
-.btn-contact:hover{
-    background-color: #bae8e8;
+.btn-contact {
+  font-family: "Dosis", sans-serif;
+  color: #fbfbfb;
+  background: black;
+  border-radius: 12px;
+  transition: 250ms ease-in-out;
+  padding: 16px 30px;
+  margin-top: 10px;
+}
+
+.btn-contact:hover {
+  background-color:#379956;
 }
