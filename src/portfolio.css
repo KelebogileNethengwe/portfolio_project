@@ -1,5 +1,5 @@
 body {
-  background: #fff6f6;
+  background: #fde9df;
 }
 .hero {
   text-align: center;
@@ -32,5 +32,5 @@ h2 {
 }
 
 .btn-contact:hover {
-  background-color:#379956;
+  background-color:#ffb5b5;
 }
