@@ -38,7 +38,9 @@ h2 {
   background: #2a2438;
   color: #ffffff;
 }
-
+.home-content{
+  padding-top:30px;
+}
 .home-content h2 {
   text-align: center;
   font-size: 45px;
