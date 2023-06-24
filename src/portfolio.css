@@ -61,3 +61,25 @@ h2 {
     rgb(51, 102, 255) 85.5%
   );
 }
+
+@media(max-width:960px){
+  
+  .info{
+    display:block;
+    margin:0 auto; 
+    padding:0px;
+    text-align:center;
+    position:relative;
+    left:20px;
+  }
+
+  .info .btn-weather-app-link{
+    padding:10px 50px;
+  }
+
+  .frontend-developer{
+    width:85px;
+    position:relative;
+    left:30px;
+  }
+}
