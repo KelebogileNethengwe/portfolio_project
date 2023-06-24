@@ -3,9 +3,8 @@ body {
 }
 .hero {
   text-align: center;
-
   background: hsl(0, 0%, 98%);
-  padding: 100px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -22,16 +21,43 @@ h2 {
   font-family: "Pacifico", cursive;
 }
 
-.btn-contact {
+.btn {
   font-family: "Dosis", sans-serif;
   color: #fbfbfb;
-  background: black;
+  border: none;
   border-radius: 12px;
   transition: 250ms ease-in-out;
   padding: 16px 30px;
   margin-top: 10px;
 }
+.btn-contact {
+  background: black;
+}
 
 .btn-contact:hover {
-  background-color: #ffb5b5;
+  background: #2a2438;
+  color: #ffffff;
+}
+
+.home-content h2 {
+  text-align: center;
+
+  font-size: 45px;
+}
+.col {
+  margin: 10px;
+  padding-top: 20px;
+}
+
+.info {
+  position: relative;
+  top: 42px;
+  right: 35px;
+}
+.btn-weather-app-link {
+  background: linear-gradient(
+    0.2deg,
+    rgb(51, 204, 255) 4.8%,
+    rgb(51, 102, 255) 85.5%
+  );
 }
