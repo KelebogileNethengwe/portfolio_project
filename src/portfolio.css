@@ -1,6 +1,27 @@
 body {
-  background-color: pink;
-}
-h1 {
+  background: #fffdf6;
   font-family: "Belanosima", sans-serif;
+}
+.hero {
+  text-align: center;
+  background: hsl(0, 0%, 98%);
+}
+
+.hero p {
+  font-size: 36px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+.btn-contact{
+    color:#fbfbfb;
+    background: black;
+    border-radius: 4px;
+    transition: 250ms ease-in-out;
+}
+
+.btn-contact:hover{
+    background-color: #bae8e8;
 }
