@@ -30,11 +30,11 @@ h2 {
   padding: 16px 30px;
   margin-top: 10px;
 }
-.btn-contact {
+.btn-contact, .btn-view-projects{
   background: black;
 }
 
-.btn-contact:hover {
+.btn-contact, .btn-view-projects:hover {
   background: #2a2438;
   color: #ffffff;
 }
@@ -42,7 +42,7 @@ h2 {
 .home-content h2 {
   text-align: center;
   font-size: 45px;
-  padding-top:15px;
+  padding-top: 15px;
 }
 .col {
   margin: 10px;
@@ -63,24 +63,74 @@ h2 {
   );
 }
 
+@media (max-width: 960px) {
+  .info {
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+  }
+
+  .info .btn-weather-app-link {
+    padding: 10px 50px;
+  }
+
+  .frontend-developer {
+    width: 85px;
+    position: relative;
+    left: 30px;
+  }
+}
+
+.about-info{
+  margin-top:60px;
+}
+.about-info, .btn-view-projects, h1,h2,p{
+  position:relative;
+  left:30px;
+}
+
+.about-info p{
+  padding:-20px;
+}
+
+.my-picture{
+   position:relative;
+  right:15px;
+  padding-top:30px;
+  border-radius: 360px 120px;
+  margin-top:10px;
+}
+
+
 @media(max-width:960px){
+  .about-info{
+   text-align: center;
+   margin-top:40px;
+   padding-top:100px;
+   padding-left:80px;
+  }
+  .about-info h1{
+      font-size:30px;
   
-  .info{
-    display:block;
-    margin:0 auto; 
-    padding:0px;
-    text-align:center;
-    position:relative;
-    left:20px;
   }
 
-  .info .btn-weather-app-link{
-    padding:10px 50px;
+  .about-info h2{
+    position:relative;
+    bottom:130px;
   }
 
-  .frontend-developer{
-    width:85px;
-    position:relative;
-    left:30px;
+.my-picture{
+  position:relative;
+  top:45px;
+  right:80px;
+  width:180px;
+  border-radius: 100px;
+
+}
+ .about-info .btn-view-projects {
+    padding: 10px;
   }
 }
