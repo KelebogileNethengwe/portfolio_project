@@ -133,4 +133,27 @@ h2 {
  .about-info .btn-view-projects {
     padding: 10px;
   }
+.projects-content a{
+  padding:13px;
+
 }
+}
+
+.projects-content{
+  padding-bottom:40px;
+  position:relative;
+  left:60px;
+}
+
+.projects-content h1{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.projects-content a{
+  margin-left:33px;
+}
+
+  .projects-content img{
+ margin-top:70px;
+}
+
