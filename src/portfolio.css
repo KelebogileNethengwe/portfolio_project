@@ -34,7 +34,7 @@ h2 {
   background: black;
 }
 
-.btn-contact, .btn-view-projects, .btn-app-link:hover {
+.btn-contact:hover, .btn-view-projects:hover, .btn-app-link:hover {
   background: #2a2438;
   color: #ffffff;
 }
