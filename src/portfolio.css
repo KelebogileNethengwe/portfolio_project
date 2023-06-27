@@ -30,11 +30,11 @@ h2 {
   padding: 16px 30px;
   margin-top: 10px;
 }
-.btn-contact, .btn-view-projects{
+.btn-contact, .btn-view-projects, .btn-app-link{
   background: black;
 }
 
-.btn-contact, .btn-view-projects:hover {
+.btn-contact, .btn-view-projects, .btn-app-link:hover {
   background: #2a2438;
   color: #ffffff;
 }
@@ -147,10 +147,14 @@ h2 {
 
 .projects-content h1{
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top:20px;
+margin-bottom:-20px;
+
 
 }
 .projects-content a{
   margin-left:33px;
+
 }
 
   .projects-content img{
