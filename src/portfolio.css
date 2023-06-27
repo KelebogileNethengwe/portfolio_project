@@ -99,7 +99,8 @@ h2 {
 
 .my-picture{
    position:relative;
-  left:30px;
+  left:50px;
+  top:30px;
   padding-top:30px;
   border-radius: 360px 120px;
   margin-top:10px;
