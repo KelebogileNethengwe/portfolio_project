@@ -30,11 +30,11 @@ h2 {
   padding: 16px 30px;
   margin-top: 10px;
 }
-.btn-contact, .btn-view-projects, .btn-app-link{
+.btn-contact, .btn-view-projects, .btn-app-link,.btn-contact{
   background: black;
 }
 
-.btn-contact:hover, .btn-view-projects:hover, .btn-app-link:hover {
+.btn-contact:hover, .btn-view-projects:hover, .btn-app-link:hover, .btn-contact:hover {
   background: #2a2438;
   color: #ffffff;
 }
@@ -171,4 +171,25 @@ margin-bottom:-20px;
   .projects-content img{
  margin-top:70px;
 }
+
+
+/*Contact page*/
+.content{
+  margin-top:30px;
+}
+.contact-content h1{
+font-size: 68px;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+.socials{
+  font-family:"Pacifico", cursive ;
+  text-align: center;
+}
+
+
+
+
+
+
 
