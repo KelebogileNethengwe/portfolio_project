@@ -67,6 +67,7 @@ h2 {
     rgb(51, 204, 255) 4.8%,
     rgb(51, 102, 255) 85.5%
   );
+  margin-bottom:30px;
 }
 /*Remember to create media queiries for each page and give each section a name*/
 
