@@ -1,10 +1,11 @@
 body {
-  background: #ffffff;
+  background:#ffffff
+
 }
 .hero {
   text-align: center;
-  background: hsl(0, 0%, 98%);
-  padding: 120px 20px;
+  padding: 5px 0px 30px 0px;
+  margin-bottom:15px;
 }
 
 .hero p {
@@ -17,7 +18,7 @@ h1 {
 }
 
 h2 {
-  line-height: 100px;
+  line-height: 80px;
   font-family: "Pacifico", cursive;
 }
 
@@ -187,6 +188,38 @@ font-family:Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
+/*Navigation bar*/
+.logo{
+  width:80px;
+}
+nav{
+  padding:20px 0px;
+}
+nav ul{
+  padding:0px;
+  margin:0px;
+}
+nav li{
+  font-size:20px;
+  font-weight: 400;
+  display:inline;
+  list-style: none;
+  text-decoration-line: none;
+  margin-left:15px;
+  line-height:65px;
+}
+ nav a{
+  text-decoration: none;
+  color:black;
+  transition: all 100ms ease-in-out;
+ }
+ nav a:hover{
+  color:#287FC1;
+ }
+
+ nav li.active a{
+  color:crimson;
+ }
 
 
 
